@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MultiStripSettings name="MultiStripSetting">
+    <!-- Settings for MultiStripSetting -->
+    <MultiStrip Count="1" Interval="60" EulerSequence="123" />
+</MultiStripSettings>
