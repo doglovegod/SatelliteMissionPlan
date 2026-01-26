@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Missions name="missionplan">
+    <MissionTimeSetting starttime="2026-01-26 04:52:11.000" endtime="2026-01-27 04:52:11.000" steptime="60.000000" mode="ANALYSIS"/>
+    <SatelliteSetting count="1">
+        <Satellite parentid="-1" id="0" name="SJ200-1">
+            <Orbit propagator="SGP4" epoch="2026-01-25 22:45:24.887" line1="1 66999U 25292G   26025.94820471  .00010172  00000+0  70829-3 0  9998" line2="2 66999  97.6508 103.1254 0016718 127.2269 233.0486 15.05532799  7047"/>
+            <ForceModel mass="1000.000000" dragarea="3.000000" Cd="2.200000" radarea="3.000000" Cr="1.000000" Cn="20" Cm="20"/>
+            <Attitude rotatesequence="321" roll="0.000000" pitch="0.000000" yaw="0.000000" yawsteermode="1"/>
+            <MissionPlanConfiguration gps0="2009-01-01 00:00:0.000" minviewangle="0.000000" maxviewangle="45.000000" startfilenumber="1" enableweather="0" onlyworkondaytime="0" enableyawsteering="1"/>
+        </Satellite>
+    </SatelliteSetting>
+    <SensorSetting count="1">
+        <Sensor parentid="0" id="1" name="Sensor 1">
+            <BasicProperty x="0.000000" y="0.000000" z="0.000000" length="568.517698" ratio="1.000000" rotatesequence="321" roll="0.000000" pitch="0.000000" yaw="0.000000" fov_x="0.800000" fov_y="0.800000"/>
+            <SensorType type="SAR" workmode="STRIP" gsdofstrip="2" gsdofspotlight="0.5" frequence="9600000000" bandwidth="600" lx="3.6000000000000001" ly="0.67000000000000004" stripcount="1"/>
+        </Sensor>
+    </SensorSetting>
+    <TargetSetting count="38">
+        <Target parentid="1" id="2" name="Wellington AP">
+            <BasicProperty latitude="-41.326810" longitude="174.806660" altitude="0.008000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="3" name="悉尼歌剧院">
+            <BasicProperty latitude="-33.856981" longitude="151.215028" altitude="0.015000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="4" name="Pratas Island">
+            <BasicProperty latitude="20.704167" longitude="116.720556" altitude="0.000000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="5" name="Kangshan AB">
+            <BasicProperty latitude="22.781667" longitude="120.261944" altitude="0.009000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="6" name="Dongshi">
+            <BasicProperty latitude="23.266667" longitude="119.666667" altitude="-0.001000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="7" name="Makung Airport">
+            <BasicProperty latitude="23.567500" longitude="119.628889" altitude="0.029000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="8" name="Huwei">
+            <BasicProperty latitude="23.710278" longitude="120.428056" altitude="0.030000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="9" name="花莲机场">
+            <BasicProperty latitude="24.023056" longitude="121.617778" altitude="0.012000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="10" name="Taitung">
+            <BasicProperty latitude="24.184444" longitude="120.653889" altitude="0.110000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="11" name="金门">
+            <BasicProperty latitude="24.427778" longitude="118.358611" altitude="0.011000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="12" name="Navyairport">
+            <BasicProperty latitude="24.577694" longitude="-81.698394" altitude="0.000000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="13" name="依兰">
+            <BasicProperty latitude="24.750000" longitude="121.766667" altitude="0.011000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="14" name="Hsinchu AB">
+            <BasicProperty latitude="24.818056" longitude="120.939167" altitude="0.008000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="15" name="Bakuai">
+            <BasicProperty latitude="24.933056" longitude="121.300000" altitude="0.147000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="16" name="台北松山机场">
+            <BasicProperty latitude="25.069444" longitude="121.552500" altitude="0.001000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="17" name="Palm Islands">
+            <BasicProperty latitude="25.116186" longitude="55.134300" altitude="0.001000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="18" name="Airbase">
+            <BasicProperty latitude="25.494089" longitude="-80.382842" altitude="0.001000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="19" name="Matsu Peigan Airport">
+            <BasicProperty latitude="26.225278" longitude="120.000000" altitude="0.013000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="20" name="珠穆朗玛峰">
+            <BasicProperty latitude="27.978111" longitude="86.921753" altitude="8.592000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="21" name="卡纳维拉尔角">
+            <BasicProperty latitude="28.586486" longitude="-80.651856" altitude="0.000000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="22" name="PotalaPalace">
+            <BasicProperty latitude="29.657917" longitude="91.117167" altitude="3.708000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="23" name="埃及金字塔">
+            <BasicProperty latitude="29.975894" longitude="31.130358" altitude="0.090000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="24" name="三峡">
+            <BasicProperty latitude="30.845833" longitude="111.024167" altitude="0.170000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="25" name="莫斯科红场">
+            <BasicProperty latitude="55.753592" longitude="37.620539" altitude="0.153000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="26" name="非洲之眼">
+            <BasicProperty latitude="21.122636" longitude="-11.398589" altitude="0.429000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="27" name="珍珠港">
+            <BasicProperty latitude="21.362160" longitude="-157.953430" altitude="0.007000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="28" name="墨西哥机场">
+            <BasicProperty latitude="19.433740" longitude="-99.070950" altitude="2.239000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="29" name="科威特机场">
+            <BasicProperty latitude="29.239910" longitude="47.970910" altitude="0.052000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="30" name="阿斯旺大坝">
+            <BasicProperty latitude="23.971110" longitude="32.877180" altitude="0.137000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="31" name="法兰克福机场">
+            <BasicProperty latitude="50.039360" longitude="8.554810" altitude="0.115000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="32" name="香港机场">
+            <BasicProperty latitude="22.308050" longitude="113.918470" altitude="0.004000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="33" name="自由女神像">
+            <BasicProperty latitude="40.689300" longitude="-74.044550" altitude="0.002000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="34" name="埃菲尔铁塔">
+            <BasicProperty latitude="48.858206" longitude="2.294497" altitude="0.034000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="35" name="珍珠港">
+            <BasicProperty latitude="21.362000" longitude="-157.953500" altitude="0.008000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="36" name="法拉利主题公园">
+            <BasicProperty latitude="24.483670" longitude="54.607050" altitude="0.001000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="37" name="哈利法塔">
+            <BasicProperty latitude="25.197000" longitude="55.274000" altitude="0.004000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="38" name="迪拜国际机场">
+            <BasicProperty latitude="25.254197" longitude="55.365797" altitude="0.004000" duration="10.000000"/>
+        </Target>
+        <Target parentid="1" id="39" name="阿布扎比国际机场">
+            <BasicProperty latitude="24.446500" longitude="54.648000" altitude="0.001000" duration="10.000000"/>
+        </Target>
+    </TargetSetting>
+    <StationSetting count="0"/>
+    <AutoDownloadTLESetting enable="1" hour="12"/>
+</Missions>
