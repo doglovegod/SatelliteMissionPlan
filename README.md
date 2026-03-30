@@ -16,3 +16,4 @@ It has the following features:
 6.It supports imaging mission plan for SAR,camera and sigint payloads.
 
 7.It supports data transmission for ground stations.
+<img width="1916" height="939" alt="image" src="https://github.com/user-attachments/assets/9a4aaa37-5ae5-4392-a3e4-7aca700e1436" />
