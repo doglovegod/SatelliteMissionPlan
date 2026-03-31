@@ -1,4 +1,4 @@
-# SatelliteMissionPlan
+# Satellite Mission Plan For Image and Transmit
 Satellite Misssion Plan System with Camera and SAR payload to perform imaging task.
 
 It has the following features:
